@@ -38,7 +38,7 @@ background-size: 20px 20px;
 
 .name{
     font-size: 1.7rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.8;
     color: #292f38;
     cursor: pointer;
@@ -53,7 +53,7 @@ background-size: 20px 20px;
 }
 
 i{
-    padding: 0 8px;
+    padding: 0 10px;
     font-weight: 100;
     color: rgb(54, 54, 54);
 }
@@ -66,7 +66,7 @@ i{
  }
 
  .fa.md-26{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 100;
-    line-height: 1.8;
+    line-height: 2.2;
  }
