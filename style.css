@@ -79,10 +79,10 @@ i{
     /* margin: 3.5rem 2.5% 50px 2.5%; */
     padding: 1rem;
     position: absolute;
-    top: 3.5rem;
-    left: 0.5rem;
-    right: 0.5rem;
-    bottom: 0.5rem;
+    top: 3.7rem;
+    left: 0.7rem;
+    right: 0.7rem;
+    bottom: 0.7rem;
     border-radius: 7px;
     border: solid;
     border-color: #e3e4e7;
@@ -90,6 +90,19 @@ i{
     /* z-index: -1; */
     overflow: hidden;
     text-align: center;
+ }
+
+ /* TESTS  */
+ .plane{
+     position: absolute;
+     z-index: 2;
+     top: 50%;
+     right: 50%;
+ }
+
+ .rotate{
+/* transform: rotateX(200deg); */
+transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
  }
 
  .box-text{

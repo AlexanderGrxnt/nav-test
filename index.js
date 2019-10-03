@@ -62,6 +62,6 @@ function triggerCharacters() {
   $('.button').on('click', function() {
     triggerCharacters();
   });
-  triggerCharacters();
+//   triggerCharacters();
 
 });
