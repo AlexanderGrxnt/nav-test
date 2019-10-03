@@ -39,7 +39,7 @@ background-size: 20px 20px;
 .name{
     font-size: 1.7rem;
     font-weight: 700;
-    line-height: 2;
+    line-height: 1.8;
     color: #292f38;
     cursor: pointer;
 }
@@ -47,7 +47,7 @@ background-size: 20px 20px;
 .nav-icons{
    position: fixed;
    right: 0px;
-   line-height: 2;
+   /* line-height: 1.8; */
    align-items: center;
    
 }
@@ -61,6 +61,6 @@ i{
 .material-icons.md-26 { 
     font-size: 1.7rem;
     font-weight: 100;
-    line-height: 2;
+    line-height: 1.8;
     
  }
