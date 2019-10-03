@@ -12,7 +12,7 @@ nav{
     padding: 0px 15px;
     box-shadow: 0px 1px 5px rgb(124, 122, 122);
     width: 100vw;
-    background: #fbfaf4;
+    background: #f8f6ea;
     overflow: auto;
     
 }   
@@ -63,4 +63,10 @@ i{
     font-weight: 100;
     line-height: 1.8;
     
+ }
+
+ .fa.md-26{
+    font-size: 1.7rem;
+    font-weight: 100;
+    line-height: 1.8;
  }
