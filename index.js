@@ -61,7 +61,9 @@ function triggerCharacters() {
   // For our example, trigger character animations on button click
   $('.button').on('click', function() {
     triggerCharacters();
-    fade();
+    $( "#wolf" ).fadeOut( 2000, function() {
+      // Animation complete
+    });
   });
    //triggerCharacters();
 
@@ -72,9 +74,24 @@ function triggerCharacters() {
 
 // }
 
-var fade = jQuery(function(){
+// var fade = jQuery(function(){
 
-  // Fade Out
-  $("#wolf").fadeOut(2000);
+//   // Fade Out
+//   $("#wolf").fadeOut(2000);
 
-});
+// });
+
+function openHTMLNav(){
+  if(window.screen.width < 768)
+      document.getElementById("overlayNav-HTML").style.width ="200px";
+  else
+      document.getElementById("overlayNav-HTML").style.width ="180px";
+  document.getElementById("blankPanel").style.width ="100%";
+  
+}
+
+function closeNav(){
+  document.getElementById("overlayNav-HTML").style.width ="0%";
+    
+  document.getElementById("blankPanel").style.width ="0%";
+}

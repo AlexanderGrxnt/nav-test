@@ -37,12 +37,47 @@ radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 
 background-size: 20px 20px;
 }
 
+.overlay{
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 3rem;
+  z-index: 3;
+  overflow-x: hidden;
+  transition: 0.5s;
+   background-color: #fffffffa; 
+   border: solid;
+   border-width: 1px;
+   border-color: #e3e4e7;
+  right: 0;
+  /* padding:30px; */
+  /* top: 20px; */
+}
+
+.blah{
+  padding: 5px 20px;
+}
+
+.panel{
+  width: 0;
+  height: 100vh;
+  z-index: 2;
+  transition: 0.5s;
+  position: fixed;
+}
+
 .name{
     font-size: 1.7rem;
     font-weight: 600;
     line-height: 1.8;
     color: #292f38;
     cursor: pointer;
+    
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-icons{
@@ -71,6 +106,18 @@ i{
     line-height: 2.2;
  }
 
+ .fa.md-4rem{
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1;
+}
+
+ .orange{
+   color: rgba(255, 208, 0, 0.904);
+   text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+   #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+ }
+
  .main-box{
     background: white;
     align-items: center;
@@ -92,10 +139,23 @@ i{
     /* text-align: center; */
  }
 
+ /* .welcome{
+   background: blue;
+   margin: 0;
+   padding: 20px;
+ } */
+
  .message{
    display: table-cell;
    vertical-align: middle;
    height: 70vh;
+   padding: 0px 35px 55px 35px;
+ }
+
+ .button{
+   position: fixed;
+   left: 45%;
+   bottom: 10%;
  }
 
  .center{
@@ -122,6 +182,18 @@ i{
      right: 50%;
  }
 
+ .plus-icon{
+   position: fixed;
+   bottom: 8%;
+   right: 8%;
+   font-size: 2rem;
+   color: #0af;
+   background: white;
+   margin: 0;
+   padding: 0;
+   border-radius: 50%;
+ }
+
  .rotate{
 /* transform: rotateX(200deg); */
 transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
@@ -132,9 +204,13 @@ transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
      font-weight: 100;
  }
 
+ h2{
+   color: #292f38;
+ }
+
  .backImage{
    position: fixed;
-   top: 30%;
+   top: 25%;
    left: 25%;
    width: 50%;
    height: 40%;
@@ -146,7 +222,7 @@ transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
     display: inline-block;
   }
   .sentence span.active {
-    animation: bounceUp 2600ms ease 0ms 1 normal both;
+    animation: bounceUp 2000ms ease 0ms 1 normal both;
   }
 
   /* Bounce top in */
