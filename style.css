@@ -135,7 +135,7 @@ i{
     border-color: #e3e4e7;
     border-width: 1px;
     /* z-index: -1; */
-    overflow: hidden;
+    overflow-y: scroll;
     /* text-align: center; */
  }
 
