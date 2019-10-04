@@ -4,25 +4,42 @@
     <meta charset="utf-8">
     <title>Nav Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" id="dm-fonts-css"
-        href="https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,800|Material+Icons" type="text/css"
-        media="all">
     <meta name="theme-color" content="#0a0a0a" />
     
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="zoom.css">
+
+    <!-- Font API -->
+    <link rel="stylesheet" id="dm-fonts-css"
+            href="https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,800|Material+Icons" type="text/css"
+             media="all">
+    <!-- Icon API -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <nav class="notifications-nav">
+    <nav>
         <div class="name">Alexander</div>
         <div class="nav-icons">
-            <a href="about.html">  <i class="material-icons md-26">airplanemode_active</i></a>
-            <i class="material-icons md-26">notifications_none</i>
-            <a href="index.html">  <i class="material-icons md-26">menu</i></a>
+            <a href="about.html">   <i class=" fa fa-paper-plane-o md-26"></i></a>
+            <a href="notifications.html">   <i class="fa fa-bell md-26"></i></a>
+            <a href="index.html">   <i class="fa fa-bars md-26"></i></a>
         </div>
-
     </nav>
+
+    <content>
+        <div class="main-box">
+            <h1>Message</h1>
+            <p class="box-text sentence">This is a secret message sent by a friend...</p>
+            <p class="box-text sentence">It won't be around for long!</p>
+            <!-- <input class="button">Click to Animate</div> -->
+            <button type="button" class="button">Reveal</button>
+        </div>
+    </content>
+   <!-- <p><i class="plane rotate fa fa-paper-plane-o md-26"></p>  -->
+    
+<script src="index.js"></script>
 </body>
 
 </html>
