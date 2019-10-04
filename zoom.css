@@ -246,11 +246,11 @@
       animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
     100% {
       opacity: 0;
-      transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -90vh, 0);
+      transform: scale3d(0.3, 0.3, 0.3) translate3d(70vw, -90vh, 0);
       animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
   
   .u--zoomOutUp {
     -webkit-animation: zoomOutUp 1s;
     -moz-animation: zoomOutUp 1s;
     -o-animation: zoomOutUp 1s;
-    animation: zoomOutUp 1s; }
+    animation: zoomOutUp 2s; }

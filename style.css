@@ -148,8 +148,8 @@ i{
  .message{
    display: table-cell;
    vertical-align: middle;
-   height: 70vh;
-   padding: 0px 15px 55px 15px;
+   height: 60vh;
+   padding: 0px 12px 55px 12px;
  }
 
  .button{
@@ -200,7 +200,7 @@ transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
  }
 
  .box-text{
-     font-size: 1.5rem;
+     font-size: 1.2rem;
      font-weight: 100;
  }
 
@@ -220,6 +220,7 @@ transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
     opacity: 0;
     position: relative;
     display: inline-block;
+    font-size: 1.5rem;
   }
   .sentence span.active {
     animation: bounceUp 2000ms ease 0ms 1 normal both;
@@ -248,4 +249,18 @@ transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
       opacity: 1;
            
     }
+  }
+
+  .message-field{
+    height: 10rem;
+    
+  }
+
+  .send-button{
+    border: solid;
+    border-width: 1px;
+    border-color: #999b9e;
+    border-radius: 5px;
+    padding: 1px 5px;
+    color: #64676d;
   }

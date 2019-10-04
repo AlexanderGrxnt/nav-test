@@ -113,6 +113,11 @@ jQuery(document).ready(function () {
 
   startContinuousArtyom();
 
+  $('.send-button').on('click', function () {
+    var plane = document.getElementById('plane');
+    plane.classList.add("u--zoomOutUp");
+  });
+
 });
 
 
