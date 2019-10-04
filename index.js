@@ -61,7 +61,20 @@ function triggerCharacters() {
   // For our example, trigger character animations on button click
   $('.button').on('click', function() {
     triggerCharacters();
+    fade();
   });
-//   triggerCharacters();
+   //triggerCharacters();
+
+});
+
+// function closeWolf(){
+// const wolf = document.getElementById("wolf");
+
+// }
+
+var fade = jQuery(function(){
+
+  // Fade Out
+  $("#wolf").fadeOut(2000);
 
 });
