@@ -54,6 +54,12 @@ background-size: 20px 20px;
   /* top: 20px; */
 }
 
+.menu-title{
+  padding: 0;
+  color: #0af;
+  margin: 10px 0 2px 0;
+}
+
 .blah{
   padding: 5px 20px;
 }
