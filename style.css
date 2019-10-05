@@ -137,7 +137,11 @@ i{
     /* z-index: -1; */
     overflow-y: scroll;
     /* text-align: center; */
-    animation: 0.4s ease-out 0s 1 slideInFromBtm;
+    
+ }
+
+ .slide{
+  animation: 0.4s ease-out 0s 1 slideInFromBtm;
  }
 
  @keyframes slideInFromBtm{
@@ -218,6 +222,7 @@ transform: rotate(0deg) scale(1, -1) translate3d(0, 0, 0);
    color: #292f38;
  }
 
+ 
  .backImage{
    position: fixed;
    top: 25%;

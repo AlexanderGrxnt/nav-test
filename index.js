@@ -29,6 +29,11 @@ jQuery(document).ready(function () {
 
   // Go through a sentence and trigger activate state
   function triggerCharacters() {
+
+    $("#wolf").fadeOut(1500, function () {
+      // Animation complete
+    });
+
     var sentenceCounter = 0;
     var sentenceDelay = 600;
 
@@ -64,6 +69,8 @@ jQuery(document).ready(function () {
     });
   }
 
+  
+
   // For our example, trigger character animations on button click
   $('.button').on('click', function () {
     triggerCharacters();
@@ -77,12 +84,12 @@ jQuery(document).ready(function () {
   const artyom = new Artyom();
   var commands = [
     {
-      indexes: ["reveal yourself"],
+      indexes: ["the secret password"],
       action: function () {
         triggerCharacters();
       }
     }, {
-      indexes: ["mischief managed"],
+      indexes: ["disappear"],
       action: function () {
         triggerCharacters();
       }
